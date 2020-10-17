@@ -43,6 +43,11 @@ https://spacex-project-001.herokuapp.com/
 
 The Lighthouse report is added to the "Lighthouse Score" folder. Please look into it. Also I have added a report analysis doc file to explain the scores.
 
+Performance - 65
+Accessibility - 95
+Best Practice - 93
+SEO - 92
+
 ## Workflow description
 
 Opening the application will show 100 mission details. Once user choose a filter the data would be updated based on the filter provided. User can use multiple filter together combined from different section of filter, but can choose single filter from a single section. if user selects an already selected filter, the filter gets deselcted or removed.
