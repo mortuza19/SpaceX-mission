@@ -50,7 +50,7 @@
     margin-block-end: 0px;
 }
 
-@media screen and (min-width: 701px) and (max-width: 1024px) {
+@media screen and (min-width: 700px) and (max-width: 1023px) {
     .card-container {
         width: 100%;
     }
@@ -69,7 +69,7 @@
     }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1440px) {
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
     .card-container {
         width: 100%;
     }
@@ -88,7 +88,7 @@
     }
 }
 
-@media screen and (min-width: 1441px) {
+@media screen and (min-width: 1440px) {
     .card-container {
         width: 100%;
     }

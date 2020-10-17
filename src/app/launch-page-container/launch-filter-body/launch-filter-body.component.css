@@ -47,7 +47,7 @@
     background-color: #7cba01;
 }
 
-@media screen and (min-width: 701px) and (max-width: 1024px) {
+@media screen and (min-width: 700px) and (max-width: 1023px) {
     .filter-container {
         width: 90%;
     }
@@ -61,7 +61,7 @@
     }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1440px) {
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
     .filter-container {
         width: 90%;
     }
