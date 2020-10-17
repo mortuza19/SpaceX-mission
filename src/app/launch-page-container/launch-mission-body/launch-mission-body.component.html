@@ -1,0 +1,9 @@
+<div class="launch-section-container" *ngIf="launchDataList.length">
+    <div class="launch-card-container" *ngFor="let launchData of launchDataList">
+        <app-launch-mission-item [launchData]="launchData"></app-launch-mission-item>
+    </div>
+</div>
+
+<p class="no-data" *ngIf="!launchDataList.length && !displayProgressSpinner">{{noDataFound}}</p>
+
+<app-progress-spinner *ngIf="displayProgressSpinner"></app-progress-spinner>

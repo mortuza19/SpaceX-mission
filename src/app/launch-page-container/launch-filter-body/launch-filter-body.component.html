@@ -1,0 +1,29 @@
+<div class="filter-container">
+    <header class="filter-header">Filters</header>
+    <div>
+        <p class="filter-section-header">Launch Year</p>
+        <div class="filter-button-section">
+            <div class="filter-button-wrapper" *ngFor="let year of yearList">
+                <button class="filter-button" [class.selected-button]="years === year" (click)="getDataByYear(year)">{{year}}</button>
+            </div>
+        </div>
+        <p class="filter-section-header">Successful Launch</p>
+        <div class="filter-button-section">
+            <div class="filter-button-wrapper">
+                <button class="filter-button" [class.selected-button]="launch === true" (click)="getDataByLaunch(true)">True</button>
+            </div>
+            <div class="filter-button-wrapper">
+                <button class="filter-button" [class.selected-button]="launch === false" (click)="getDataByLaunch(false)">False</button>
+            </div>
+        </div>
+        <p class="filter-section-header">Successful Landing</p>
+        <div class="filter-button-section">
+            <div class="filter-button-wrapper">
+                <button class="filter-button" [class.selected-button]="land === true" (click)="getDataByLand(true)">True</button>
+            </div>
+            <div class="filter-button-wrapper">
+                <button class="filter-button" [class.selected-button]="land === false" (click)="getDataByLand(false)">False</button>
+            </div>
+        </div>
+    </div>
+</div>
